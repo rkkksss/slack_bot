@@ -17,7 +17,7 @@ go run main.go config.json
 Есть json файл с таким содержанием:
  ``` 
 {
-    "bot_token": "xoxb-2448831610886-2479463301456-IpDy8GjNSQhZKr3zLpCwZANf",
+    "bot_token": "your_bot_token",
     "channels": [
       {
         "channel": "test1",
@@ -34,8 +34,8 @@ go run main.go config.json
     ]
    } 
 ```
+Не забудьте вставить необходимый токен для бота.
 
-Сохранить данные вы хотите в папку res.
 Тогда запуск скрипта будет иметь такой вид:
 ```
 go run main.go config.json
